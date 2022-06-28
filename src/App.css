@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.App {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.table tr th,
+.table tr td {
+    padding: 16px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.table-striped  tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table thead tr {
+    background-color: rgba(0, 0, 0, 0);
+} 
+
+
+
+.dataFilter {
+    display: flex;
+}
+.dataFilter__search {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+}
+.dataFilter__nav {}
+.dataFilter__perPage {}
+
+
+.UiPagination .active {
+    color: #fff;
+    background: #1976d2;
+}
+
+.arrow__wraper {
+    display: flex;
+    padding: 15px 5px;
+}
+.arrow__wraper .arrow {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.arrow__prew {}
+.arrow__next {}
+

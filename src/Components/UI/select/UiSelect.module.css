@@ -1,0 +1,39 @@
+.uiselect {
+    position: relative;
+    padding: 15px;
+}
+.uiselect__title {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.4);
+    left: 25px;
+    font-size: 12px;
+    background: #fff;
+    transform: translateY(calc(-50% - 2px));
+    padding: 2px;
+}
+.uiselect select {
+    padding: 11px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid rgba(0, 0, 0, 0.4)
+}
+
+.uiselect select:focus {
+    border: 1px solid #1976d2;
+}
+.uiselect option {
+    line-height: 2em;
+}
+
+.uiselect select option {
+    color: gray;
+    font-size: 20px;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+.uiselect select option:last-child {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
